@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Koulen&family=Pacifico&family=Roboto:wght@100;300&family=Tapestry&family=Ubuntu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  border-top: 3px solid #64F3BF;
+}
+
+.cards {
+  display: flex; 
+  flex-wrap: wrap; 
+  padding: 0;
+  border: none;
+}
+
+.fa-shopping-cart {
+  font-size: 50px;
+}
+
+.cards div {
+  flex: 1 30%;
+}
+
+.card {
+  display: flex; 
+  flex-direction: column; 
+  margin: 0.7rem;
+  font-size: 15px;
+  background-color: #64F3BF;
+  border: 3px solid;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0px;
+}
+
+.text {
+  justify-self: flex-start;
+  margin: 0;
+  padding: 1rem;
+}
+
+.inner {
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0; 
+  padding: 30px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 35px;
+  background-color: #6498F3;
+  color: white;
+  border: none;
+  box-shadow: 0px 7px 0px -4px black, 7px 0px 0px -4px black,
+    0px -7px 0px -4px black, -7px 0px 0px -4px black;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  main {width: 95%;}
+}
